@@ -1,0 +1,27 @@
+body{
+    background: rgb(235, 235, 235);
+	background-image: url(https://images.pexels.com/photos/417023/pexels-photo-417023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+nav {
+   background: rgb(235, 235, 235);
+}
+
+.button, .choices, .start {
+    margin: 5px;
+    padding: 5px;
+}
+
+.text-muted{
+	color: blue;
+}
+.last-seconds{
+  color: red;
+}
+.option{
+  margin: 10px;
+  padding: 5px;
+}

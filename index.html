@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Andrew Eldenburg" content="">
+
+    <title>Trivia Game</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/gif" href="https://quizlet.com/a/i/brandmark/1024.TGu7.png"/>
+  </head>
+  <body>
+<!--Navbar with links-->
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-item nav-link" href="rules.html">How To Play</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+</div>
+   
+    <!--Main Jumbotron with title and time info-->
+    <div class="container">
+      <div class="header text-center clearfix">
+        <h1 class="text-muted"></h1>
+      </div>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+        <div id="game">
+          <h2>Trivia Game</h2>
+          <p id="remaining-time" class="lead">Remaining Time: <span id="timer"></span></p>
+          <p id="question" class="lead"></p>
+        </div>
+        <div id="results">
+        </div>
+      </div>
+
+        <!--Button to start the game-->
+        <div class="row">
+                <div id="choices" class="text-center">
+                <button id="start" class="btn btn-info btn-lg">Start Game</button>
+                <div id="options">
+                </div>
+                </div>
+            </div>
+      </div>
+    </div>
+    </div>
+<footer>
+    &copy; Copyright 2019, Andrew Eldenburg
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="app.js"></script>
+</footer>
+  </body>
+</html>
